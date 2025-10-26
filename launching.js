@@ -23,7 +23,7 @@ function drawBg(){
 drawBg();
 
 /* Countdown */
-const target=new Date("2025-10-27T00:00:00").getTime();
+const target=new Date("2025-10-27T11:30:00").getTime();
 const dEl=document.getElementById('days'),
       hEl=document.getElementById('hours'),
       mEl=document.getElementById('minutes'),
@@ -62,3 +62,4 @@ document.getElementById('googleRemind').addEventListener('click',()=>{
   const url='https://www.google.com/calendar/render?action=TEMPLATE&text=Hacktivist%20Haven%20Launch&dates=20251231T000000Z/20251231T010000Z&details=Hacktivist%20Haven%20is%20live!&location=https://hactivisthaven.com';
   window.open(url,'_blank');
 });
+
